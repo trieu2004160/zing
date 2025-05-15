@@ -1,12 +1,12 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-import LibraryContent from "../components/item/Library";
-import ChartContent from "../components/item/Chart";
+import LibraryContent from "../components/Libraryzing/LibraryContent";
+import ChartContent from "../components/Chart/index";
 import RadioContent from "../components/item/Radio";
-import NewMusicContent from "../components/item/Newms";
-import CategoryContent from "../components/item/Category";
-import Top100Content from "../components/item/Top100";
+import NewMusicContent from "../components/BXH_New/Index";
+import CategoryContent from "../components/Unit&category/index";
+import Top100Content from "../components/Top100/Top100";
 import DiscoverContent from "../components/item/Discover";
 
 const AppRouter: React.FC = () => {
